@@ -1,0 +1,230 @@
+/*		Default Layout: 960px.
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+*/
+
+
+
+
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+
+
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (min-width: 992px) {
+
+
+
+
+
+}
+
+
+@media only screen and (min-width: 576px) {
+
+
+
+}
+
+
+
+@media only screen and (min-width: 301px) and (max-width: 531px) {
+
+
+
+
+
+
+
+
+
+
+}
+@media only screen and (min-width: 301px) and (max-width: 400px) {
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (min-width: 992px) {
+
+#mainNav{
+	-webkit-box-shadow: none ;
+	box-shadow: none ;
+	background: transparent ;
+
+
+}
+#mainNav .navbar-brand{
+	color: rgba(255,255,255,.7) ;
+}
+#mainNav.navbar-scrolled{
+	-webkit-box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) ;
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) ;
+	background: #fff ;
+
+}
+#mainNav.navbar-scrolled .navbar-brand{
+    color: #212529;
+}
+#mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link{
+	color: #212529 ;
+}
+#mainNav .navbar-nav .nav-item .nav-link{
+  color: rgba(255,255,255,.7) ;
+  padding: 0 1rem ;
+}
+
+
+header.masthead{
+	height: 100vh ;
+	min-height: 42rem ;
+	padding-top: 72px ;
+	padding-bottom: 0 ;
+}
+
+.masthead h1{
+	font-size: 3.5rem ;
+	margin-top: 10%;
+
+}
+.font-weight-bold{
+	font-weight: 700 !important ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 200px) and (max-width: 350px) {
+
+
+
+
+
+
+
+
+
+
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
